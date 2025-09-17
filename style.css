@@ -256,18 +256,8 @@ header > a{
     border: none;
     transition: background 0.3s ease;
 }
-/* #cta .btn-outline-primary {
-  background: none;
-  border: 2px solid transparent;
-  border-image: var(--accent-gradient) 1;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: var(--accent-gradient);
-  transition: all 0.3s ease;
-}
 
-#cta .btn-outline-primary:hover {
-  background-image: var(--accent-gradient);
-  color: #fff;
-  -webkit-text-fill-color: #fff;
-} */
+/* footer */
+footer a:hover{
+    text-decoration: underline;
+}
