@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <!-- header -->
+    <header>
+        <nav id="nav" class="navbar navbar-expand-lg pt-3">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold" href="#">MyFitMind pro</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#stats">Stats</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#cta">Try FitMind</a>
+                    </li>
+                   
+                </ul>
+
+                </div>
+                
+            </div>
+        </nav>
+
+        <a href="#nav" class="display-6 position-fixed bottom-0 end-0 mb-3 me-3"><i class="fa-regular fa-circle-up"></i></a>
+    </header>
+
+
+
+    <!-- main -->
+    <main class="my-2 d-flex flex-column gap-5 mb-5">
+        <!-- hero -->
+        <section id="hero">
+            <div class="container">
+                <div class="row row-gap-5">
+                    <div class="col-12 col-lg-6 d-flex flex-column gap-3 justify-content-center align-items-center text-center text-lg-start justify-content-lg-start align-items-lg-start">
+                        <h1 class="display-1 fw-bold w-100">Transform Your Mind & Body</h1>
+                        <p class="lead">Revolutionary AI-powered fitness device that reads your thoughts and optimizes your workout in real-time. Experience the future of personalized training.</p>
+                        <button class="btn btn-primary rounded-pill py-3 px-5 button-shine">Start Your Journey</button>
+                        <div>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <small>4.9/5 from 10,000+ users</small>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                        <div id="brain-icon-container" class="d-flex justify-content-center align-items-center">
+                            <i id="brain-icon" class="fa-solid fa-brain float-effect"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- features -->
+        <section id="features">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold display-4">Cutting-Edge Features</h2>
+                    <p class="lead">Experience the next generation of fitness technology</p>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <div class="card d-flex flex-column align-items-center  pt-3 " style="width: 18rem;">
+                        <div class="icon-div d-flex justify-content-center align-items-center mt-5">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title h4 fw-bold text-light">Neural Interface</h5>
+                            <p class="card-text text-secondary">Advanced EEG sensors read your mental state and motivation levels, adjusting workout intensity automatically for optimal performance.</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-center pt-3 " style="width: 18rem;">
+                        <div class="icon-div d-flex justify-content-center align-items-center mt-5">
+                                                        <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title h4 fw-bold text-light">AI Personal Trainer</h5>
+                            <p class="card-text text-secondary">Machine learning algorithms create personalized workout plans that evolve with your progress and adapt to your unique physiology.</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-center pt-3 " style="width: 18rem;">
+                        <div class="icon-div d-flex justify-content-center align-items-center mt-5">
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title h4 fw-bold text-light">Real-time Analytics</h5>
+                            <p class="card-text text-secondary">Comprehensive biometric tracking with instant feedback on form, heart rate variability, and muscle activation patterns.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- stats -->
+        <section id="stats">
+            <div class="container p-5">
+                <div class="text-center mb-5">
+                     <h2 class="display-4 fw-bold">Proven Results</h2>
+                    <p class="lead mb-5">Join thousands of satisfied users who have transformed their lives with MyFitMind pro.</p>
+                    <div class="row g-5">
+                        <div class="col-12 col-md-6 col-lg-3  ">
+                            <span class="h1 fw-bold">98%</span>
+                            <p class="text-secondary">User Satisfaction</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3  ">
+                            <span class="h1 fw-bold">45%</span>
+                            <p class="text-secondary">Faster Results</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3  ">
+                            <span class="h1 fw-bold">10k+</span>
+                            <p class="text-secondary">Active Users</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3  ">
+                            <span class="h1 fw-bold">24/7</span>
+                            <p class="text-secondary">AI Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- cta -->
+        <section id="cta" class="d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="d-flex flex-column justify-content-center align-items-center text-center gap-3 p-5">
+                    <h2 class="text-center display-4 fw-bold w-75 mx-auto mb-3">Ready to Revolutionize Your Fitness?</h2>
+                    <p class="lead text-center mb-5 text-secondary">Join thousands of users who have already transformed their lives with MyFitMind pro</p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <button class="btn btn-primary rounded-pill py-3 px-5 shine-effect button-shine">Get Started Now</button>
+                        <button class="btn btn-outline-light rounded-pill py-3 px-5 ">Watch Demo</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- footer -->
+    <footer class="mt-5 pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="#">Privacy Policy</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Terms of Service</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Support</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <p class="text-center text-secondary">&copy; 2024 MyFitMind pro Made by [Nadeem Hassan]. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
